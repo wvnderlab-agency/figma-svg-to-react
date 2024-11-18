@@ -20,6 +20,7 @@ export interface IComponent extends ISvgOptimizationInfo {
 
 	componentName: string;
 	fileName: string;
+	nodeName: string;
 
 	svgValues: ISvgValues;
 

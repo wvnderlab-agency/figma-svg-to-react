@@ -29,6 +29,7 @@ export const makeDefaultComponent = (ogSvg: IOriginalSvg): IComponent => ({
 
 	fileName: strToComponentName(ogSvg.nodeName),
 	componentName: strToComponentName(ogSvg.nodeName),
+	nodeName: ogSvg.nodeName,
 
 	svgTransformationInfo: makeDefaultTransformationInfo(),
 	svgDefaultValues: makeDefaultSvgValues(),
